@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+
+.container-fluid img{
+    width: 50px;
+}
+
+
+
+/*main*/
+
+.card {
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border-left: solid black;
+  border-right: solid black;
+  border-bottom: solid black;
+  border-top: solid black;
+  border-radius: 20px; }
+
+/*productos*/
+/*main*/
+.init {
+  height: 60vh;
+  width: 100%; }
+  .init .img-fluid {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+  .init .init__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 300px;
+    position: relative; }
+
+.card-title {
+  font-size: 18px; }
+
+.logitech{
+  display: flex;
+  justify-content: space-around;
+  }
+
+.pulsar{
+  display: flex;
+  justify-content: space-around;
+}
+.vaxee{
+  display: flex;
+  justify-content: space-around;
+}
+
+/*footer*/
+.contenedor {
+  background-color: #191919;
+  margin-top: 0px; }
+
+.titulo {
+  display: flex;
+  justify-content: center; }
+
+.redes {
+  display: flex;
+  justify-content: center; }
+
+.redes {
+  font-size: 22px; }
+
+.titulo, .redes, .derechos {
+  color: #191919; }
+
+.derechos {
+  display: flex;
+  justify-content: center; }
+
+.fb, .tw, .ig, .li, .yt {
+  padding: 0 20px;
+  margin-left: 20px; }
+
+.fb {
+  background-color: #0d00ff;
+  padding: 8px;
+  border-radius: 50px;
+  color: #fff; }
+
+.tw {
+  background-color: #0095ff;
+  padding: 8px;
+  border-radius: 50px;
+  color: #fff; }
+
+.ig {
+  background-color: #ff006f;
+  padding: 8px;
+  border-radius: 50px;
+  color: #fff; }
+
+.li {
+  background-color: #0011ff;
+  padding: 8px;
+  border-radius: 50px;
+  color: #fff; }
+
+.yt {
+  background-color: red;
+  padding: 8px;
+  border-radius: 50px;
+  color: #fff; }
+
+
